@@ -3,13 +3,13 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import "./WeatherSearch.css";
 
-export default function WeatherSearch({updateInfo,API_URL,API_KEY}){
+export default function WeatherSearch({updateInfo}){
 
     let[city,setCity]=useState("");
     let[error,setError]=useState(false);
-
     
-    // const secret= API_KEY;
+    const API_URL="https://api.openweathermap.org/data/2.5/weather";
+    const API_KEY="407327cef93c632e2549e6440178f6a7";
 
     let getWeatherInfo = async()=>{
         try{
