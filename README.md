@@ -1,3 +1,5 @@
+# react-mini-project
+The repo consists of code written for a small project- Weather App built using React and API.  
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
